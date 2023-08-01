@@ -228,8 +228,9 @@ function renderMenuSection() {
 function switchScreen() {
 
    function splitHref(hrefLink) {
-      const arr = hrefLink.split('#');
-      return arr[1];
+    //   const arr = hrefLink.split('#');
+    //   return arr[1];
+    return hrefLink;
    }
    
    function shuffle(item) {
